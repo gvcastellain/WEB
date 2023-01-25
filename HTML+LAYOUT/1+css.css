@@ -1,0 +1,34 @@
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.box1 {
+    background-color: red;
+    position: absolute;
+}
+
+.box2 {
+    background-color: green;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    
+}
+
+.box3 {
+    background-color: blue;
+    position: fixed;
+}
+
+
+/*
+
+stackando objetos = para stackar objs é só 
+                    empilhalos pela orientação
+                    (top, bottom, left, right)
+                    z-index = determina em qual 
+                    camada o objeto deve permanecer
+
+position-static = permanece no mesmo lugar durante a scrolagem

@@ -1,0 +1,22 @@
+p {
+    font-family: "Times New Roman", Times, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-decoration: underline gold;
+    text-align: center;
+}
+
+
+/*font-stretch: expanded;
+text transform: uppercase / lowercase / capitaliza / none
+line height 
+ext-decoration = overline / line-through
+text-align: justify = espaços entre cada frase
+  text-shadow: x / y / blur / color
+SHORTHAND =   font: italic normal bold normal 3em/1.5 
+              Helvetica, Arial, sans-serif;
