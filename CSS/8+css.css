@@ -1,0 +1,18 @@
+div { 
+    height: 100px;
+    border: 1px solid red;
+    width: 10px;
+    display: inline;
+}
+
+span {
+    height: 100px;  
+    width: 10px;
+    border: 1px solid green;
+    display: block;
+}
+
+
+/* display: BLOCK / INLINE
+BLOCK VAI RESPEITAR OS COMANDOS 
+INLINE NÃO VAI RESPEITAR TODOS / VALORES HORIZONTAIS    
