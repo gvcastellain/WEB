@@ -1,0 +1,6 @@
+article p:nth-of-type(1) {
+    color:purple
+}
+
+/* odd = um elemento marcado outro não(par)
+   even = um elemento marcado outro não(ímpar)

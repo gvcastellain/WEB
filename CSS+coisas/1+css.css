@@ -1,0 +1,12 @@
+[title] {
+    color: gold;
+}
+
+.red {
+    font-size: 3em;
+}
+
+
+p:hover , h1:hover {
+    color: red;
+}

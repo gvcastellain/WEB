@@ -1,0 +1,17 @@
+div{
+    font-size: 18px;
+}
+
+p{
+    font-size: 2em;
+}
+
+/*
+    em = define o tamanho da fonte pai
+    multiplica a quantidade de pixels
+
+    16px raiz
+
+    rem = define o tamanho da px raiz(16px)
+    pode ser mudado pela code
+    html -> font-size ?px  / ou usar a tag root + definição

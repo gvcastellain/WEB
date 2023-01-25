@@ -1,0 +1,12 @@
+a:hover{
+    color: gold;
+}
+
+input:focus{
+    color:yellow;
+    outline:none
+}
+
+input:required {
+    background-color: blue;
+}

@@ -1,0 +1,39 @@
+.box {
+    display: flex;
+
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+}
+
+.box div:nth-child(3), 
+.box div:nth-child(2){
+    flex-grow: 1; /** 1 flex grow = divide o espaço por elemnetos // frações**/ 
+}
+
+.box div:nth-child(1){
+    flex-grow: 2;
+}
+
+.box1 {
+    flex-direction: column;
+    display: flex;
+    border: 1px dashed red;
+
+    height: 200px;
+}
+
+.box1 div {
+    border: 1px solid;
+}
+
+.box1 div:nth-child(3), 
+.box1 div:nth-child(2){
+    flex-grow: 1; /** 1 flex grow = divide o espaço por elemnetos // frações**/ 
+}
+
+.box1 div:nth-child(1){
+    flex-grow: 4;
+}

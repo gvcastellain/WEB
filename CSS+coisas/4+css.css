@@ -1,0 +1,15 @@
+button + button {
+    margin-left: 32px;
+}
+
+
+h1 ~ p {
+    color: gold;
+}
+
+h1 + p {
+    color: red;
+}
+
+/* + pega o primeiro e seleciona
+   ~ pega todos e seleciona

@@ -1,0 +1,17 @@
+div {
+    color: #0000ff88;
+}
+
+h3 {
+    color: rgb(255, 00, 00, 60%)
+}
+
+h4 {
+    color: hsl(180, 100%, 50%);
+}
+
+/* Global values 
+color: inheritr =  Herda a cor do elemento anterior 
+color: initial = Volta a sua cor inicial 
+color: unset =   Pega a cor do contexto 
+current color = cor do contexto */
