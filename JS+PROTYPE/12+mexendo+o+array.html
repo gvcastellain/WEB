@@ -1,0 +1,19 @@
+<script>
+
+
+    let techs  = ["html" , "css" , "js"]
+
+    techs.push("nodejs") // adiciona no começo
+
+    techs.unshift("sql") // adiciona no final
+
+    techs.pop() //remove do começo
+
+    techs.shift() //remove do final
+
+    let index = techs.indexOf("css") // procura o elemento desejado
+    techs.splice(index, 1) // remove ele e a quantidade
+
+    console.log(techs)
+
+</script>

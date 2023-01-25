@@ -1,0 +1,96 @@
+<script>
+
+
+    const tipoDeLivro = [   
+
+        {
+            categoria: "hq",
+            livro: [
+                {
+                    title: "maus",
+                    autor: "spielgman",
+                },
+                {
+                    title: "one piece",
+                    autor: "oda",
+                },
+            ],
+        },
+
+        {
+            categoria: "ficção",
+            livro: [
+                {
+                    title: "harry potter",
+                    autor: "jk rowling",
+                },
+                {
+                    title: "lord of ring",
+                    autor: "tolkien",
+                },    
+            ],
+        },
+    ];
+
+    const totalDeCategorias = tipoDeLivro.length
+
+    
+    console.log("total de categorias: ", totalDeCategorias)
+    for(let categoria of tipoDeLivro){
+        console.log("total de livros da categoria:", categoria.categoria)
+        console.log(categoria.livro.length)
+    }
+
+
+    function countAutores() {
+        let autores = [];
+
+        for (let categoria of tipoDeLivro){
+            for(let livro of categoria.livro){
+                if(autores.indexOf(livro.autor)== -1){
+                    autores.push(livro.autor)
+                }
+            }
+        }
+
+        console.log("total de autrores", autores.length)
+    }
+
+    countAutores();
+
+
+    function livrosDe() {
+        let livros = [];
+
+        for(let categoria of tipoDeLivro){
+            for(let livro of categoria.livro){
+                if(livro.autor === "oda"){
+                    livros.push(livro.title)
+                    }
+                }
+            }
+
+            console.log("livro do autor: ", livros)
+        }
+
+    livrosDe();
+
+    
+    function livrosDe(autor) {
+        let livros = [];
+
+        for(let categoria of tipoDeLivro){
+            for(let livro of categoria.livro){
+                if(livro.autor === autor){
+                    livros.push(livro.title)
+                    }
+                }
+            }
+
+            console.log(`livros do autro ${autor}: ${livros.join(", ")}`)
+        }
+
+    livrosDe("spielgman");
+
+
+</script>
